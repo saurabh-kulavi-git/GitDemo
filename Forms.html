@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Forms In HTML</h2>
+    <form>
+        <label for="first-name">Enter first name:</label>
+        <input type="text" id="first-name" name="firstName" minlength="5" maxlength="10" required>
+
+        <label for="middle-name">Enter middle name:</label>
+        <input type="text" id="middle-name" name="middleName" minlength="5" maxlength="10" required>
+
+        <label for="last-name">Enter last name:</label>
+        <input type="text" id="last-name" name="lastName" minlength="5" maxlength="10" disabled>
+
+        <br>
+        <br>
+        <label for="age">Enter age</label>
+        <input type="number" id="age" name="age">
+        <br>
+        <br>
+        <label for="email">Enter email ID</label>
+        <input type="email" id="email" name="email">
+        
+        <br>
+        <br>
+        <label for="password">Enter password:</label>
+        <input type="password" id="password" name="password">
+
+        <br>
+        <br>
+        <label for="dob">Enter DOB</label>
+        <input type="date" id="dob" name="dob">
+
+        <br>
+        <br>
+        <label>Choose</label>
+        <input type="radio" name="size" id="size-small" value="small"><label for="size-small">Small</label>
+        <input type="radio" name="size" id="size-medium" value="medium" checked><label for="size-medium">Medium</label>
+        <input type="radio" name="size" id="size-large" value="large"><label for="size-large">Large</label>
+
+        <br>
+        <br>
+        <label for="col">Please select color:</label>
+        <input type="color" id="col" name="color">
+
+        <br>
+        <br>
+   </form>
+</body>
+</html>
